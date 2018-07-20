@@ -1,8 +1,18 @@
-body.index {
-  background-image: url("../img/drew.gif");
-  background-repeat: no-repeat;
+html, body  {
+  margin: 0;
+  padding: 0;
   height: 100%;
-  background-size: cover;
+  width: 100%;
+}
+
+body.index .intro{
+  height: 100%;
+width: 100%;
+margin: auto;
+background: url(../img/drew-portrait.gif);
+display: table;
+top: 0;
+background-size: cover;
 }
 
 .bg-light {
@@ -10,6 +20,12 @@ body.index {
 }
 
 /*--- NAV BAR ---*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
 a.navbar-brand {
   font-family: "Quicksand";
 }
@@ -23,6 +39,7 @@ a.nav-link {
   background-color: transparent;
   border: 0;
   color: rgba(0, 0, 0, 0.74);
+  margin-top: 60px;
 }
 
 .card.quote p {
@@ -51,7 +68,7 @@ body.works, body.works html {
   width: 100%;
 }
 
-body.works .navbar.navbar-expand-lg.navbar-light.bg-light {
+.navbar.navbar-expand-lg.navbar-light.bg-light  {
   z-index: 2;
   position: fixed;
   top: 0;
@@ -163,6 +180,7 @@ body.works .bg-light {
 .dropdown-item {
   font-family: Quicksand;
 }
+
 
 body.works span {
   font-family: "Quicksand";
@@ -278,4 +296,9 @@ body.works .row {
 .album-artwork-container, p.more-info {
   text-align: center !important;
 }
+
+footer span {
+  display: none;
+}
+
 }
