@@ -169,7 +169,7 @@ body.works span {
   font-size: 88%;
 }
 
-.date {
+.more-info {
   font-size: 0.9rem;
   margin-bottom: -15px;
   margin-top: 0px;
@@ -261,13 +261,13 @@ body.works .row {
 }
 .btn.dropdown-toggle {
     font-size: 14px !important;
+    padding-bottom: 0px !important;
 }
 .dropdown {
   text-align: center;
-
 }
 
-.album-artwork-container, p.date {
+.album-artwork-container, p.more-info {
   text-align: center !important;
 }
 }
