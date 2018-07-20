@@ -113,10 +113,7 @@ body.works .bg-light {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep.jpg");
   color: #34829e;
 }
-#concept-sleep .btn {
-  color: #34829e;
-}
-#concept-sleep .fa-soundcloud {
+#concept-sleep .btn, #concept-sleep .fa-soundcloud, #concept-sleep span {
   color: #34829e;
 }
 
@@ -143,10 +140,7 @@ body.works .bg-light {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/shortest-straw.jpg");
   color: #34829e;
 }
-#sing-short .btn {
-  color: #34829e;
-}
-#sing-short .fa-soundcloud {
+#sing-short .btn, #sing-short .fa-soundcloud, #sing-short span {
   color: #34829e;
 }
 
@@ -227,6 +221,12 @@ body.works p {
 .footer .text-muted {
   padding-right: 10px;
 }
+
+body.works .nav-tabs .nav-item.show .nav-link, body.works .nav-tabs .nav-link.active {
+  background-color: transparent;
+  border: 0;
+}
+
 
 body.works .footer {
   margin-top: -50px;
