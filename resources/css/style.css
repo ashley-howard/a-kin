@@ -155,6 +155,11 @@ body.works .bg-light {
   color: #4c4c4c;
 }
 
+ .album {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .dropdown-item {
   font-family: Quicksand;
 }
@@ -247,4 +252,22 @@ body.index .footer {
     line-height: 60px;
     background-color: transparent;
     text-align: right;
+}
+
+/* MOBILES */
+@media only screen and (max-width: 575px){
+body.works .row {
+  flex-direction: column;
+}
+.btn.dropdown-toggle {
+    font-size: 14px !important;
+}
+.dropdown {
+  text-align: center;
+
+}
+
+.album-artwork-container, p.date {
+  text-align: center !important;
+}
 }
