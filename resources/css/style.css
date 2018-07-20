@@ -16,7 +16,7 @@ background-size: cover !important;
 }
 
 .bg-light {
-  background-color: #eaeceb!important;
+  background-color: #eaeceb00!important;
 }
 
 /*--- NAV BAR ---*/
@@ -299,6 +299,10 @@ body.works .row {
 
 footer span {
   display: none;
+}
+
+.bg-light {
+    background-color: #eaeceb!important;
 }
 }
 
