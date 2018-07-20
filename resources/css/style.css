@@ -12,11 +12,11 @@ margin: auto;
 background: url(../img/drew-portrait.gif);
 display: table;
 top: 0;
-background-size: cover;
+background-size: cover !important;
 }
 
 .bg-light {
-  background-color: #f8f9fa00!important;
+  background-color: #eaeceb!important;
 }
 
 /*--- NAV BAR ---*/
@@ -44,7 +44,7 @@ a.nav-link {
 
 .card.quote p {
   font-family: "Reenie Beanie";
-  font-size: 1.5em;
+  font-size: 40px;
   margin-bottom: 0;
 }
 
@@ -300,5 +300,11 @@ body.works .row {
 footer span {
   display: none;
 }
+}
 
+
+@media only screen and (orientation: landscape) {
+  body.index .intro{
+  background: url(../img/drew.gif);
+  }
 }
