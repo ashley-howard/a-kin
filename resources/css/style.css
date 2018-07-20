@@ -267,6 +267,14 @@ body.works .row {
   text-align: center;
 }
 
+.dropdown-item {
+  padding: .10rem 0.5rem;
+}
+
+.dropdown-menu {
+  background-color: #ffffffd1;
+}
+
 .album-artwork-container, p.more-info {
   text-align: center !important;
 }
