@@ -3,16 +3,17 @@ html, body  {
   padding: 0;
   height: 100%;
   width: 100%;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body.index .intro{
   height: 100%;
-width: 100%;
-margin: auto;
-background: url(../img/drew-portrait.gif);
-display: table;
-top: 0;
-background-size: cover !important;
+  width: 100%;
+  margin: auto;
+  background: url(../img/drew-portrait.gif);
+  display: table;
+  top: 0;
+  background-size: cover !important;
 }
 
 .bg-light {
@@ -24,14 +25,6 @@ background-size: cover !important;
   position: fixed;
   width: 100%;
   z-index: 2;
-}
-
-a.navbar-brand {
-  font-family: "Quicksand";
-}
-
-a.nav-link {
-  font-family: "Quicksand";
 }
 
 /* Quote */
@@ -96,94 +89,73 @@ body.works .bg-light {
 
 #install-man {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/manipulated-labour.jpg");
-  color: #5c3c6b;
 }
-#install-man .btn {
+#install-man, #install-man .btn {
   color: #5c3c6b;
 }
 
 #perf-gender, #perf-breathe {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/drew.png");
-  color: #48565a;
 }
-#perf-gender .btn, #perf-breathe .btn, #perf-breathe .fa-facebook {
+#perf-gender, #perf-breathe, #perf-gender .btn, #perf-breathe .btn, #perf-breathe .fa-facebook {
   color: #48565a;
 }
 
 #ep-envir {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
-  color: #59a593;
 }
-#ep-envir .btn {
+#ep-envir, #ep-envir .btn {
   color: #59a593;
 }
 
 #install-sleep {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep-install.jpg");
-  color: #946951;
 }
-#install-sleep .btn {
+#install-sleep, #install-sleep .btn {
   color: #946951;
 }
 
 #concept-sleep {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep.jpg");
-  color: #34829e;
 }
-#concept-sleep .btn, #concept-sleep .fa-soundcloud, #concept-sleep span {
+#concept-sleep, #concept-sleep .btn, #concept-sleep .fa-soundcloud, #concept-sleep span {
   color: #34829e;
 }
 
 #install-jungle {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/jungle-square.jpg");
-  color: #34829e;
 }
-#install-jungle .btn {
+#install-jungle, #install-jungle .btn {
   color: #34829e;
 }
 
 #sing-fault {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/fault-system.jpg");
-  color: #4c4c4c;
 }
-#sing-fault .btn {
-  color: #4c4c4c;
-}
-#sing-fault .fa-itunes {
+#sing-fault, #sing-fault .btn, #sing-fault .fa-itunes {
   color: #4c4c4c;
 }
 
 #sing-short {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/shortest-straw.jpg");
-  color: #34829e;
 }
-#sing-short .btn, #sing-short .fa-soundcloud, #sing-short span {
+#sing-short, #sing-short .btn, #sing-short .fa-soundcloud, #sing-short span {
   color: #34829e;
 }
 
 #sing-race {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/digital-race.jpg");
-  color: #4c4c4c;
 }
-#sing-race .btn {
-  color: #4c4c4c;
-}
-#sing-race .fa-soundcloud {
+#sing-race, #sing-race .btn, #sing-race .fa-soundcloud {
   color: #4c4c4c;
 }
 
- .album {
+.album {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.dropdown-item {
-  font-family: Quicksand;
-}
-
-
 body.works span {
-  font-family: "Quicksand";
   font-size: 88%;
 }
 
@@ -215,7 +187,6 @@ body.works .intro .inner {
 body.works .btn {
   border: solid #036A81 3px;
   border-radius: 9px;
-  font-family: 'Quicksand', sans-serif;
   color: #036A81;
   font-size: 135%;
   padding: 10px 20px;
@@ -231,20 +202,19 @@ body.works .btn:hover{
 body.works p {
   text-align: justify;
   margin: 3%;
-  font-family: "Quicksand";
   font-size: 88%;
 }
 
 
 /*--- FOOTER ---*/
 .footer {
-    position: absolute;
-    bottom: auto;
-    width: 100%;
-    height: 45px;
-    line-height: 60px;
-    background-color: transparent;
-    text-align: right;
+  position: absolute;
+  bottom: auto;
+  width: 100%;
+  height: 45px;
+  line-height: 60px;
+  background-color: transparent;
+  text-align: right;
 }
 
 .footer .text-muted {
@@ -263,52 +233,52 @@ body.works .footer {
 
 /* Index Footer */
 body.index .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 60px;
-    background-color: transparent;
-    text-align: right;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 60px;
+  background-color: transparent;
+  text-align: right;
 }
 
 /* MOBILES */
 @media only screen and (max-width: 575px){
-body.works .row {
-  flex-direction: column;
-}
-.btn.dropdown-toggle {
+  body.works .row {
+    flex-direction: column;
+  }
+  .btn.dropdown-toggle {
     font-size: 14px !important;
     padding-bottom: 0px !important;
-}
-.dropdown {
-  text-align: center;
-}
+  }
+  .dropdown {
+    text-align: center;
+  }
 
-.dropdown-item {
-  padding: .10rem 0.5rem;
-}
+  .dropdown-item {
+    padding: .10rem 0.5rem;
+  }
 
-.dropdown-menu {
-  background-color: #ffffffd1;
-}
+  .dropdown-menu {
+    background-color: #ffffffd1;
+  }
 
-.album-artwork-container, p.more-info {
-  text-align: center !important;
-}
+  .album-artwork-container, p.more-info {
+    text-align: center !important;
+  }
 
-footer span {
-  display: none;
-}
+  footer span {
+    display: none;
+  }
 
-.bg-light {
+  .bg-light {
     background-color: #eaeceb!important;
-}
+  }
 }
 
 
 @media only screen and (orientation: landscape) {
   body.index .intro{
-  background: url(../img/drew.gif);
+    background: url(../img/drew.gif);
   }
 }
