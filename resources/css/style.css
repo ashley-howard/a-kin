@@ -19,7 +19,7 @@ body.index .intro{
   background: url(../img/drew-portrait-op.gif);
 }
 
-body.contact, body.contact-form-submitted {
+body.contact, body.contact-form-submitted, body.statement, body.events {
     background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
 }
 
@@ -249,7 +249,7 @@ body.works .footer {
 }
 
 .portfolio-block.contact {
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 0px;
 }
 
