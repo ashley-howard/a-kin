@@ -19,7 +19,7 @@ body.index .intro{
   background: url(../img/drew-portrait-op.gif);
 }
 
-body.contact {
+body.contact, body.contact-form-submitted {
     background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
 }
 
@@ -198,6 +198,21 @@ body.works p {
   font-size: 88%;
 }
 
+/* CONTACT PAGE*/
+
+.buttons {
+  text-align: center;
+}
+
+.btn-light {
+    background-color: #efefef;
+}
+
+a.btn {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 
 /*--- FOOTER ---*/
 .footer {
@@ -236,6 +251,10 @@ body.works .footer {
 .portfolio-block.contact {
     padding-top: 100px;
     padding-bottom: 0px;
+}
+
+body.contact-form-submitted .portfolio-block.contact {
+    padding-top: 200px;
 }
 
 .portfolio-block form {
