@@ -1,7 +1,7 @@
 html, body  {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: auto; /* was 100% */
   width: 100%;
   font-family: 'Quicksand', sans-serif;
 }
@@ -53,7 +53,7 @@ body.contact, body.contact-form-submitted, body.statement, body.events {
   margin-bottom: 0;
 }
 
-.card.quote.statement p {
+.card.quote.statement p, .card.quote.events p{
   text-align: center;
   padding-top: 70px;
   font-size: 1.3em;
@@ -315,7 +315,7 @@ body.contact-form-submitted .portfolio-block.contact {
 }
 
 @media only screen and (max-width: 1000px){
-  .card.quote.statement p {
+  .card.quote.statement p, .card.quote.events p {
       padding: 0;
     }
 }
