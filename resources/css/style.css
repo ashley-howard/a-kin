@@ -52,6 +52,13 @@ body.contact, body.contact-form-submitted, body.statement, body.events {
   margin-bottom: 0;
 }
 
+.card.quote.statement p {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 1.3em;
+  padding: 100px;
+}
+
 /*--- WORKS ---*/
 .album-selector {
   font-size: 0.9rem;
@@ -304,4 +311,10 @@ body.contact-form-submitted .portfolio-block.contact {
   body.index .intro{
     background: url(../img/drew-op.gif);
   }
+}
+
+@media only screen and (max-width: 1000px){
+  .card.quote.statement p {
+      padding: 0;
+    }
 }
