@@ -21,6 +21,7 @@ body.index .intro{
 
 body.contact, body.contact-form-submitted, body.statement, body.events {
     background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
+    background-attachment: fixed; /* fix image*/
 }
 
 .album {
