@@ -301,8 +301,8 @@ body.contact-form-submitted .portfolio-block.contact {
     text-align: center !important;
   }
 
-  body.index footer span {
-    display: none;
+   footer span {
+    display: none; /*fix*/
   }
 
   body.index .bg-light {
