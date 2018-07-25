@@ -298,9 +298,10 @@ body.contact-form-submitted .portfolio-block.contact {
     text-align: center !important;
   }
 
-  footer span {
+  body.index footer span {
     display: none;
   }
+
 
 body.index .bg-light {
     background-color: #eaeceb!important;
