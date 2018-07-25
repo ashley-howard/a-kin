@@ -28,15 +28,26 @@ body.contact, body.contact-form-submitted, body.statement, body.events {
   padding: 100px;
 }
 
-.bg-light {
-  background-color: #eaeceb00!important;
-}
-
 /*--- NAV BAR ---*/
 .navbar {
   position: fixed;
   width: 100%;
   z-index: 2;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light  {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.bg-light {
+  background-color: #f8f9fac2!important; /*transparent white*/
+}
+
+body.index .bg-light {
+  background-color: #eaeceb00!important; /*transparent*/
 }
 
 /* Quote */
@@ -72,19 +83,7 @@ body.contact, body.contact-form-submitted, body.statement, body.events {
   height: 100%;
 }
 
-.navbar.navbar-expand-lg.navbar-light.bg-light  {
-  z-index: 2;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-body.works .bg-light {
-  background-color: #f8f9fac2!important;
-}
-
 .album-artwork {
-  border: 3px solid #8080802b;
   width: 40vw;
   box-shadow: -7px -5px 20px 0px #616161db;
 }
@@ -303,7 +302,7 @@ body.contact-form-submitted .portfolio-block.contact {
     display: none;
   }
 
-  .bg-light {
+body.index .bg-light {
     background-color: #eaeceb!important;
   }
 }
