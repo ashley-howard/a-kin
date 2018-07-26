@@ -247,6 +247,11 @@ p.feed-item-desc {
   padding-bottom: 25px;
 }
 
+/* spotify widget*/
+iframe {
+  width: 100%;
+}
+
 /*--- FOOTER ---*/
 .footer {
   position: absolute;
