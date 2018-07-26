@@ -234,8 +234,8 @@ body.blog .container, body.events .container {
 .feed-item-title a {
   pointer-events: none;
   cursor: default;
+  color: rgba(81, 101, 105, 0.9);
 }
-
 
 /*--- FOOTER ---*/
 .footer {
