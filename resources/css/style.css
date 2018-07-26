@@ -238,13 +238,11 @@ body.blog .container, body.events .container {
 }
 
 h4.feed-item-title {
-  background-color: #00000008;
   margin-bottom: 0px;
   padding-bottom: 5px;
 }
 
 p.feed-item-desc {
-  background-color: #00000008;
   border-bottom: 1px solid #00000033;
 }
 
