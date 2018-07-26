@@ -227,7 +227,7 @@ a.btn {
   display: none;
 }
 
-body.blog .container {
+body.blog .container, body.events .container {
   padding-top: 75px;
 }
 
