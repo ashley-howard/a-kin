@@ -25,8 +25,6 @@ body.contact, body.contact-form-submitted, body.statement, body.events, body.blo
   height: 100%;
 }
 
-
-
 .album {
   padding: 100px;
 }
@@ -222,6 +220,20 @@ body.works p {
 a.btn {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+/*-- BLOG --*/
+.rss2html-note {
+  display: none;
+}
+
+body.blog .container {
+  padding-top: 75px;
+}
+
+.feed-item-title a {
+  pointer-events: none;
+  cursor: default;
 }
 
 
