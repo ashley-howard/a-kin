@@ -309,8 +309,8 @@ body.contact-form-submitted .portfolio-block.contact {
     background-color: #eaeceb!important;
   }
 
-  html.contact, html.contact-form-submitted, html.statement, html.events {
-    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
+  body.contact, body.contact-form-submitted, body.statement, body.events {
+    background-image: url("../img/environments-portrait.jpg");
     /*height: 100%; buggy */
     background-size: cover;
   }
