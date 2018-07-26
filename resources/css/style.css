@@ -228,11 +228,23 @@ a.btn {
 }
 
 body.blog .container, body.events .container {
-  padding-top: 75px;
+  margin-top: 75px;
+  text-align: center;
+  padding: 10px;
 }
 
 .feed-item-title a {
   color: rgba(81, 101, 105, 0.9);
+}
+
+h4.feed-item-title {
+  background-color: #00000008;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+p.feed-item-desc {
+  background-color: #00000008;
 }
 
 /*--- FOOTER ---*/
