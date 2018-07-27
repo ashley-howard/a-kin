@@ -372,6 +372,8 @@ body.contact-form-submitted .portfolio-block.contact {
     background-image: url("../img/reaching-portrait.jpg");
     /*height: 100%; buggy */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
