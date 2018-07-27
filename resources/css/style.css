@@ -370,7 +370,7 @@ body.contact-form-submitted .portfolio-block.contact {
 
   body.contact, body.contact-form-submitted, body.statement, body.events, body.blog {
     background-image: url("../img/reaching-portrait.jpg");
-    /*height: 100%; buggy */
+    height: 100%; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
