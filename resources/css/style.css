@@ -6,6 +6,10 @@ html, body  {
   font-family: 'Quicksand', sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 body.index .intro, .album {
   height: 100%;
   width: 100%;
@@ -89,6 +93,17 @@ body.index .bg-light {
   box-shadow: -7px -5px 20px 0px #616161db;
 }
 
+/*font-awesome icons*/
+i.fab {
+    padding-right: 5px;
+}
+
+span.tidal-text {
+    font-weight: bold;
+    vertical-align: super;
+    letter-spacing: 0.1em
+}
+
 #concept-reach {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
 }
@@ -106,7 +121,7 @@ body.index .bg-light {
 #perf-gender, #perf-breathe {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/drew.png");
 }
-#perf-gender, #perf-breathe, #perf-gender .btn, #perf-breathe .btn, #perf-breathe .fa-facebook {
+#perf-gender, #perf-breathe, #perf-gender .btn, #perf-breathe .btn, #perf-breathe i {
   color: #48565a;
 }
 
@@ -127,8 +142,13 @@ body.index .bg-light {
 #concept-sleep {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep.jpg");
 }
-#concept-sleep, #concept-sleep .btn, #concept-sleep .fa-soundcloud, #concept-sleep span {
+#concept-sleep, #concept-sleep .btn, #concept-sleep i, #concept-sleep span {
   color: #34829e;
+}
+
+.fab.fa-spotify {
+    font-size: 1.7em;
+    vertical-align: top;
 }
 
 #install-jungle {
@@ -141,21 +161,21 @@ body.index .bg-light {
 #sing-fault {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/fault-system.jpg");
 }
-#sing-fault, #sing-fault .btn, #sing-fault .fa-itunes {
-  color: #4c4c4c;
+#sing-fault, #sing-fault .btn, #sing-fault i, #sing-fault a {
+  color: #000;
 }
 
 #sing-short {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/shortest-straw.jpg");
 }
-#sing-short, #sing-short .btn, #sing-short .fa-soundcloud, #sing-short span {
+#sing-short, #sing-short .btn, #sing-short i, #sing-short a, #sing-short span {
   color: #34829e;
 }
 
 #sing-race {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/digital-race.jpg");
 }
-#sing-race, #sing-race .btn, #sing-race .fa-soundcloud {
+#sing-race, #sing-race .btn, #sing-race i {
   color: #4c4c4c;
 }
 
@@ -260,7 +280,6 @@ iframe {
 }
 
 .tidal {
-    width: 40px;
     height: 25px;
     vertical-align: inherit;
 }
