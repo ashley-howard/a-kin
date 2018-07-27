@@ -89,6 +89,13 @@ body.index .bg-light {
   box-shadow: -7px -5px 20px 0px #616161db;
 }
 
+#concept-reach {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
+}
+#concept-reach, #concept-reach .btn {
+  color: #5c3c6b;
+}
+
 #install-man {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/manipulated-labour.jpg");
 }
@@ -252,6 +259,12 @@ iframe {
   width: 100%;
 }
 
+.tidal {
+    width: 40px;
+    height: 25px;
+    vertical-align: inherit;
+}
+
 /*--- FOOTER ---*/
 .footer {
   position: absolute;
@@ -337,7 +350,7 @@ body.contact-form-submitted .portfolio-block.contact {
   }
 
   body.contact, body.contact-form-submitted, body.statement, body.events, body.blog {
-    background-image: url("../img/environments-portrait.jpg");
+    background-image: url("../img/reaching-portrait.jpg");
     /*height: 100%; buggy */
     background-size: cover;
   }
