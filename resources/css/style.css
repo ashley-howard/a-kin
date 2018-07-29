@@ -60,6 +60,10 @@ body.index .bg-light {
   background-color: #eaeceb00!important; /*transparent*/
 }
 
+button.navbar-toggler:focus {
+  outline: 5px auto #000000;
+}
+
 /* Quote */
 .card.quote {
   background-color: transparent;
