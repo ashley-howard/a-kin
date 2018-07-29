@@ -23,7 +23,7 @@ body.index .intro{
   background: url(../img/drew-portrait-op.gif);
 }
 
-body.contact, body.contact-form-submitted, body.statement, body.events, body.blog {
+body.contact, body.contact-form-submitted, body.statement, body.shows, body.blog {
   background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
   background-attachment: fixed;
@@ -78,7 +78,7 @@ button.navbar-toggler:focus {
   margin-bottom: 0;
 }
 
-.card.quote.statement p, .card.quote.events p{
+.card.quote.statement p, .card.quote.shows p{
   text-align: center;
   padding-top: 70px;
   font-size: 1.3em;
@@ -267,7 +267,7 @@ span.tidal-text {
   display: none;
 }
 
-body.blog .container, body.events .container {
+body.blog .container, body.shows .container {
   margin-top: 75px;
   text-align: center;
   padding: 10px;
@@ -411,7 +411,7 @@ body.contact-form-submitted .portfolio-block.contact {
     background-color: #eaeceb!important;
   }
 
-  body.contact, body.contact-form-submitted, body.statement, body.events, body.blog {
+  body.contact, body.contact-form-submitted, body.statement, body.shows, body.blog {
     background-image: url("../img/reaching-portrait.jpg");
     height: 100%;
     background-size: cover;
@@ -427,7 +427,7 @@ body.contact-form-submitted .portfolio-block.contact {
 }
 
 @media only screen and (max-width: 1000px){
-  .card.quote.statement p, .card.quote.events p {
+  .card.quote.statement p, .card.quote.shows p {
     padding: 0;
   }
 }
