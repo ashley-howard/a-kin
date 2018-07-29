@@ -96,13 +96,13 @@ body.index .bg-light {
 
 /*font-awesome icons*/
 i.fab {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 span.tidal-text {
-    font-weight: bold;
-    vertical-align: super;
-    letter-spacing: 0.1em
+  font-weight: bold;
+  vertical-align: super;
+  letter-spacing: 0.1em
 }
 
 #concept-reach {
@@ -148,8 +148,8 @@ span.tidal-text {
 }
 
 .fab.fa-spotify {
-    font-size: 1.7em;
-    vertical-align: top;
+  font-size: 1.7em;
+  vertical-align: top;
 }
 
 #install-jungle {
@@ -281,8 +281,8 @@ iframe {
 }
 
 .tidal {
-    height: 25px;
-    vertical-align: inherit;
+  height: 25px;
+  vertical-align: inherit;
 }
 
 /*--- FOOTER ---*/
@@ -337,17 +337,17 @@ body.contact-form-submitted .portfolio-block.contact {
 }
 
 .btn-outline-secondary:hover {
-    background-color: #00000017;
-    border-color: transparent;
+  background-color: #00000017;
+  border-color: transparent;
 }
 
 .btn-outline-secondary:active {
-    background-color: #00000017 !important;
-    border-color: transparent !important;
+  background-color: #00000017 !important;
+  border-color: transparent !important;
 }
 
 .btn-outline-secondary:focus {
-    box-shadow: none !important;
+  box-shadow: none !important;
 
 }
 
@@ -376,7 +376,7 @@ body.contact-form-submitted .portfolio-block.contact {
     text-align: center !important;
   }
 
-   footer span {
+  footer span {
     display: none; /*fix*/
   }
 
