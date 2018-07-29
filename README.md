@@ -1,4 +1,4 @@
-# a-kin
+# A-KIN
 
 Version 1.0 Released
 <br>
