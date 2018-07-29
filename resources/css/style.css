@@ -1,7 +1,7 @@
 html, body  {
   margin: 0;
   padding: 0;
-  height: 100%; /* was 100% */
+  height: 100%;
   width: 100%;
   font-family: 'Quicksand', sans-serif;
 }
@@ -78,108 +78,6 @@ body.index .bg-light {
 }
 
 /*--- WORKS ---*/
-.album-selector {
-  font-size: 0.9rem;
-  position: fixed;
-  right: 0;
-}
-
-.card-img-top {
-  width: 50%;
-  height: 100%;
-}
-
-.album-artwork {
-  width: 40vw;
-  box-shadow: -7px -5px 20px 0px #616161db;
-}
-
-/*font-awesome icons*/
-i.fab {
-  padding-right: 5px;
-}
-
-span.tidal-text {
-  font-weight: bold;
-  vertical-align: super;
-  letter-spacing: 0.1em
-}
-
-#concept-reach {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
-}
-#concept-reach, #concept-reach .btn {
-  color: #5c3c6b;
-}
-
-#install-man {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/manipulated-labour.jpg");
-}
-#install-man, #install-man .btn {
-  color: #5c3c6b;
-}
-
-#perf-gender, #perf-breathe {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/drew.png");
-}
-#perf-gender, #perf-breathe, #perf-gender .btn, #perf-breathe .btn, #perf-breathe i {
-  color: #48565a;
-}
-
-#ep-envir {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
-}
-#ep-envir, #ep-envir .btn {
-  color: #59a593;
-}
-
-#install-sleep {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep-install.jpg");
-}
-#install-sleep, #install-sleep .btn {
-  color: #946951;
-}
-
-#concept-sleep {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep.jpg");
-}
-#concept-sleep, #concept-sleep .btn, #concept-sleep i, #concept-sleep span {
-  color: #34829e;
-}
-
-.fab.fa-spotify {
-  font-size: 1.7em;
-  vertical-align: top;
-}
-
-#install-jungle {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/jungle-square.jpg");
-}
-#install-jungle, #install-jungle .btn {
-  color: #34829e;
-}
-
-#sing-fault {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/fault-system.jpg");
-}
-#sing-fault, #sing-fault .btn, #sing-fault i, #sing-fault a {
-  color: #000;
-}
-
-#sing-short {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/shortest-straw.jpg");
-}
-#sing-short, #sing-short .btn, #sing-short i, #sing-short a, #sing-short span {
-  color: #34829e;
-}
-
-#sing-race {
-  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/digital-race.jpg");
-}
-#sing-race, #sing-race .btn, #sing-race i {
-  color: #4c4c4c;
-}
-
 .album {
   padding-left: 0px;
   padding-right: 0px;
@@ -235,19 +133,106 @@ body.works p {
   font-size: 88%;
 }
 
-/* CONTACT PAGE*/
-
-.buttons {
-  text-align: center;
+.album-selector {
+  font-size: 0.9rem;
+  position: fixed;
+  right: 0;
 }
 
-.btn-light {
-  background-color: #efefef;
+.card-img-top {
+  width: 50%;
+  height: 100%;
 }
 
-a.btn {
-  margin-right: 10px;
-  margin-left: 10px;
+.album-artwork {
+  width: 40vw;
+  box-shadow: -7px -5px 20px 0px #616161db;
+}
+
+/*font awesome icons*/
+i.fab {
+  padding-right: 5px;
+}
+
+.fab.fa-spotify {
+  font-size: 1.7em;
+  vertical-align: top;
+}
+
+span.tidal-text {
+  font-weight: bold;
+  vertical-align: super;
+  letter-spacing: 0.1em;
+}
+
+#concept-reach {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
+}
+#concept-reach, #concept-reach .btn {
+  color: #5c3c6b;
+}
+
+#install-man {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/manipulated-labour.jpg");
+}
+#install-man, #install-man .btn {
+  color: #5c3c6b;
+}
+
+#perf-gender, #perf-breathe {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/drew.png");
+}
+#perf-gender, #perf-breathe, #perf-gender .btn, #perf-breathe .btn, #perf-breathe i {
+  color: #48565a;
+}
+
+#ep-envir {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
+}
+#ep-envir, #ep-envir .btn {
+  color: #59a593;
+}
+
+#install-sleep {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep-install.jpg");
+}
+#install-sleep, #install-sleep .btn {
+  color: #946951;
+}
+
+#concept-sleep {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep.jpg");
+}
+#concept-sleep, #concept-sleep .btn, #concept-sleep i, #concept-sleep span {
+  color: #34829e;
+}
+
+#install-jungle {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/jungle-square.jpg");
+}
+#install-jungle, #install-jungle .btn {
+  color: #34829e;
+}
+
+#sing-fault {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/fault-system.jpg");
+}
+#sing-fault, #sing-fault .btn, #sing-fault i, #sing-fault a {
+  color: #000;
+}
+
+#sing-short {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/shortest-straw.jpg");
+}
+#sing-short, #sing-short .btn, #sing-short i, #sing-short a, #sing-short span {
+  color: #34829e;
+}
+
+#sing-race {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/digital-race.jpg");
+}
+#sing-race, #sing-race .btn, #sing-race i {
+  color: #4c4c4c;
 }
 
 /*-- BLOG --*/
@@ -314,7 +299,20 @@ body.works .footer {
   margin-top: -50px;
 }
 
-/*-- CONTACT --*/
+/*-- CONTACT PAGE --*/
+.buttons {
+  text-align: center;
+}
+
+.btn-light {
+  background-color: #efefef;
+}
+
+a.btn {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .portfolio-block .heading {
   text-align: center;
   text-transform: uppercase;
@@ -348,7 +346,6 @@ body.contact-form-submitted .portfolio-block.contact {
 
 .btn-outline-secondary:focus {
   box-shadow: none !important;
-
 }
 
 /* MOBILES */
