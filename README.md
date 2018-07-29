@@ -1,3 +1,3 @@
 # a-kin
 
-In development
+Version 1.0 Released
