@@ -50,7 +50,10 @@ body.contact, body.contact-form-submitted, body.statement, body.events, body.blo
 }
 
 .bg-light {
-  background-color: #f8f9fac2!important; /*transparent white*/
+  /*background-color: #f8f9fac2!important; /*transparent white*/
+  zoom: 1;
+  opacity: 0.80 !important;
+  filter: alpha(opacity=80)!important;
 }
 
 body.index .bg-light {
@@ -151,6 +154,8 @@ body.works p {
 .album-artwork {
   width: 40vw;
   box-shadow: -7px -5px 20px 0px #616161db;
+  -webkit-box-shadow: -7px -5px 20px 0px #616161db;
+  -ms-box-shadow: -7px -5px 20px 0px #616161db;
 }
 
 /*font awesome icons*/
