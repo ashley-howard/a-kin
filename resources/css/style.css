@@ -164,8 +164,12 @@ i.fab {
 }
 
 .fab.fa-spotify {
-  font-size: 1.7em;
+  font-size: 1.9em;
   vertical-align: top;
+}
+
+.fab.fa-amazon {
+  font-size: 1.9rem;
 }
 
 span.tidal-text {
@@ -178,7 +182,7 @@ span.tidal-text {
   background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
 }
-#concept-reach, #concept-reach .btn {
+#concept-reach, #concept-reach .btn, #concept-reach i, span.tidal-text {
   color: #5c3c6b;
 }
 
@@ -202,7 +206,7 @@ span.tidal-text {
   background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
 }
-#ep-envir, #ep-envir .btn {
+#ep-envir, #ep-envir .btn, #ep-envir i, #ep-envir span {
   color: #59a593;
 }
 
@@ -250,7 +254,7 @@ span.tidal-text {
   background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/digital-race.jpg");
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/digital-race.jpg");
 }
-#sing-race, #sing-race .btn, #sing-race i {
+#sing-race, #sing-race .btn, #sing-race i, #sing-race span {
   color: #4c4c4c;
 }
 
