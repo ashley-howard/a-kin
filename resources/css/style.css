@@ -23,7 +23,7 @@ body.index .intro{
   background: url(../img/drew-portrait-op.gif);
 }
 
-body.contact, body.contact-form-submitted, body.statement, body.shows, body.blog {
+body.contact, body.contact-form-submitted, body.statement, body.shows, body.blog, body.four-oh-four {
   background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
   background-attachment: fixed;
@@ -375,13 +375,41 @@ body.contact-form-submitted .portfolio-block.contact {
   box-shadow: none !important;
 }
 
+/*-- 404 Page --*/
+body.four-oh-four .container {
+  padding-top: 7rem;
+}
+
+p.four-oh-four-text, p.four-oh-four-sorry-text, .btn-container-four-oh-four {
+  text-align: center;
+}
+
+p.four-oh-four-text {
+  font-size: 4rem;
+}
+
+p.four-oh-four-sorry-text {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.btn.four-oh-four {
+  margin: auto 0px;
+  padding: 0.3em;
+  border-radius: 5px !important;
+}
+
+.btn.btn-dark.btn-block.btn-lg.four-oh-four {
+  margin: auto 10px;
+}
+
 /* MOBILES */
 @media only screen and (max-width: 575px){
   body.works .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .btn.dropdown-toggle {
     font-size: 14px !important;
@@ -411,7 +439,7 @@ body.contact-form-submitted .portfolio-block.contact {
     background-color: #eaeceb!important;
   }
 
-  body.contact, body.contact-form-submitted, body.statement, body.shows, body.blog {
+  body.contact, body.contact-form-submitted, body.statement, body.shows, body.blog, body.four-oh-four {
     background-image: url("../img/reaching-portrait.jpg");
     height: 100%;
     background-size: cover;
