@@ -187,7 +187,7 @@ span.tidal-text {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
 }
 #concept-reach, #concept-reach .btn, #concept-reach i, span.tidal-text {
-  color: #5c3c6b;
+  color: #495ec7;
 }
 
 #install-man {
@@ -242,7 +242,7 @@ span.tidal-text {
   background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/fault-system.jpg");
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/fault-system.jpg");
 }
-#sing-fault, #sing-fault .btn, #sing-fault i, #sing-fault a {
+#sing-fault, #sing-fault .btn, #sing-fault i, #sing-fault a, #sing-fault span {
   color: #000;
 }
 
