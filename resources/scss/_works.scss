@@ -1,0 +1,240 @@
+.album {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0;
+    background-size: cover !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 100px;
+}
+
+
+/*font awesome icons*/
+.fab {
+    padding-right: 5px;
+
+    &.fa-spotify {
+        font-size: 1.9em;
+        vertical-align: top;
+    }
+
+    &.fa-amazon {
+        font-size: 1.9rem;
+    }
+}
+
+.tidal-text {
+    font-weight: bold;
+    vertical-align: super;
+    letter-spacing: 0.1em;
+}
+
+/* spotify widget*/
+iframe {
+    width: 100%;
+}
+
+.tidal {
+    height: 25px;
+    vertical-align: inherit;
+}
+
+.more-info {
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    margin-bottom: -15px;
+    margin-top: 0px;
+}
+
+body.works {
+
+    span {
+        font-size: 88%;
+    }
+
+    .intro .inner {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        max-width: none;
+    }  
+
+    .btn {
+        border: solid #036A81 3px;
+        border-radius: 9px;
+        color: #036A81;
+        font-size: 135%;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover {
+            color: #fff;
+            border: solid #fff 3px;
+        }
+
+        &.dropdown-toggle {
+            border: 0;
+            background-color: transparent;
+            font-size: 16px;
+            font-size: 1rem;
+            padding-left: 16px;
+    
+            &:hover {
+                border: 0;
+                color: #036A81;
+            }
+        }
+    }
+
+    p {
+        text-align: justify;
+        margin: 3%;
+        font-size: 88%;
+    }
+}
+
+.album-selector {
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    position: fixed;
+    right: 0;
+}
+
+.album-artwork {
+    width: 40vw;
+    box-shadow: -7px -5px 20px 0px #616161db;
+    -webkit-box-shadow: -7px -5px 20px 0px #616161db;
+    -ms-box-shadow: -7px -5px 20px 0px #616161db;
+}
+
+.card-img-top {
+    width: 50%;
+    height: 100%;
+}
+
+body.works .nav-tabs .nav-item.show .nav-link,
+body.works .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: 0;
+}
+
+#concept-reach {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/reaching.jpg");
+
+    &,
+    .btn,
+    i,
+    .tidal-text {
+        color: #495ec7;
+    }
+}
+
+#install-man {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/manipulated-labour.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/manipulated-labour.jpg");
+
+    &,
+    .btn {
+        color: #5c3c6b;
+    }
+}
+
+#perf-gender,
+#perf-breathe {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/drew.png");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/drew.png");
+}
+
+#perf-gender,
+#perf-breathe,
+#perf-gender .btn,
+#perf-breathe .btn,
+#perf-breathe i {
+    color: #48565a;
+}
+
+#ep-envir {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/environments.jpg");
+
+    &,
+    .btn,
+    i,
+    span {
+        color: #59a593;
+    }
+}
+
+#install-sleep {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep-install.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep-install.jpg");
+
+    &,
+    .btn {
+        color: #946951;
+    }
+}
+
+#concept-sleep {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/songs-sleep.jpg");
+
+    &,
+    .btn,
+    i,
+    span {
+        color: #34829e;
+    }
+}
+
+#install-jungle {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/jungle-square.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/jungle-square.jpg");
+
+    &,
+    .btn {
+        color: #34829e;
+    }
+}
+
+#sing-fault {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/fault-system.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/fault-system.jpg");
+
+    &,
+    .btn,
+    i,
+    a,
+    span {
+        color: #000;
+    }
+}
+
+#sing-short {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/shortest-straw.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/shortest-straw.jpg");
+
+    &,
+    .btn,
+    i,
+    a,
+    span {
+        color: #34829e;
+    }
+}
+
+#sing-race {
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/digital-race.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.52)), url("../img/digital-race.jpg");
+
+    &,
+    .btn,
+    i,
+    span {
+        color: #4c4c4c;
+    }
+}

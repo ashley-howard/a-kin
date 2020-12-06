@@ -1,0 +1,30 @@
+body.four-oh-four {
+    .container {
+        padding-top: 7rem;
+    }
+
+    p.four-oh-four-text {
+        font-size: 4rem;
+    }
+
+    p.four-oh-four-sorry-text {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .btn.four-oh-four {
+        margin: auto 0px;
+        padding: 0.3em;
+        border-radius: 5px !important;
+    }
+
+    p.four-oh-four-text,
+    p.four-oh-four-sorry-text,
+    .btn-container-four-oh-four {
+        text-align: center;
+    }
+
+    .btn.btn-dark.btn-block.btn-lg.four-oh-four {
+        margin: auto 10px;
+    }
+}

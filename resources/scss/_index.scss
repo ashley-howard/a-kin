@@ -1,0 +1,38 @@
+body.index {
+    .bg-light {
+        background-color: #eaeceb00 !important;
+        /*transparent*/
+    }
+
+    .intro {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        display: table;
+        top: 0;
+        background-size: cover !important;
+        background: url(../img/drew-portrait-op.gif);
+    }
+}
+
+/* Quote */
+.card.quote {
+    background-color: transparent;
+    border: 0;
+    color: rgba(0, 0, 0, 0.74);
+    margin-top: 60px;
+
+    p {
+        font-family: "Reenie Beanie";
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+}
+
+.card.quote.statement p,
+.card.quote.shows p {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 1.3em;
+    padding: 100px;
+}
