@@ -1,4 +1,4 @@
-body.index {
+.index {
     .bg-light {
         background-color: #eaeceb00 !important;
         /*transparent*/
@@ -10,8 +10,10 @@ body.index {
         margin: auto;
         display: table;
         top: 0;
-        background-size: cover !important;
-        background: url(../img/drew-portrait-op.gif);
+    }
+
+    footer {
+        position: fixed;
     }
 }
 

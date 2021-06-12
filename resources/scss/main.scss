@@ -102,16 +102,19 @@ button.navbar-toggler:focus {
     }
 }
 
-@media only screen and (orientation: landscape) {
-    body.index .intro {
-        background: url(../img/drew-op.gif);
-    }
-}
-
 @media only screen and (max-width: 1000px) {
 
     .card.quote.statement p,
     .card.quote.shows p {
         padding: 0;
     }
+}
+
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 }
